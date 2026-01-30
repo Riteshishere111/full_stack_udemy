@@ -7,6 +7,100 @@
 </head>
 <body>
     <h1>Forms Demo</h1>
+<button>outside form</button>
+    <form action="/tacos">
+        <button>please do not submit the form</button>
+        <label for="username">Enter a Username</label>
+        <input type="text" placeholder="USER NAME" id="username" name="username">
+        <label for="passwordd">Enter your password</label>
+        <input type="password" id="passwordd" name="password" placeholder="password">
+        <label for="colour">choose color</label>
+        <button>In the middle</button>
+        <input type="color" placeholder="colour" name="color" id="colour">
+        <label for="number">Enter your number</label>
+        <input type="number" placeholder="enter  number" name="number" id="number">
+        <button>Submit</button>
 
-    <form action=""></form>
+        <!-- If there is a button inside a form the default behaviour is to submit the form -->
+         <button type="button">No more default</button>
+    </form>
+<hr><hr><hr>
+    <form action="https://www.google.com/search">
+        <label for="search">GOOGLE</label>
+        <input type="text" name="q" id="search" placeholder="Search Here">
+        <button type="submit">Search</button>
+    </form>
+
+     <form action="https://www.youtube.com/results?">
+        <label for="search">Youtube</label>
+        <input type="text" name="search_query" id="search" placeholder="Search Here">
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>More inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_t&c" id="agree" checked>
+        <label for="agree">I agree to terms & conditions.</label>
+
+        <p>
+            <h3>Select your clothing size</h3>
+            <!-- <h6>version 1</h6>
+            <label for="xs">Extra Small</label>
+            <input type="radio" name="size" id="xs">
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s">
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="m">
+            <label for="l">large</label>
+            <input type="radio" name="size" id="l">
+            <label for="xl">Extra large</label>
+            <input type="radio" name="size" id="xl">
+            
+             -->
+            <!-- still won't work as it will be unsure which one is selected  -->
+            <h6>version 2</h6>
+            <label for="xs">Extra Small</label>
+            <input type="radio" name="size" id="xs" value="xtraSmall">
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="Small">
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="m" value="Medium">
+            <label for="l">large</label>
+            <input type="radio" name="size" id="l" value="Big">
+            <label for="xl">Extra large</label>
+            <input type="radio" name="size" id="xl" value="extralarge">
+
+            <p>
+                <label for="meal">Please select entree</label>
+                <select name="meal" id="meal">
+                    <option value="fish">Fish</option>
+                    <option value="Veg">Vegeterian</option>
+                    <option value="skeak">Steak</option>
+                    <option value="paneer">Paneer</option>
+                </select>
+            </p>
+            <p><label for="range">choose your budget</label>
+                <input type="range" name="budget" id="range" value="77" min="5" max="100" step="3">
+            </p>
+
+            <button>submit</button>
+        </p>
+
+        <p>
+            <label for="request">any special request</label>
+            <textarea name="wrtten_note" id="request" rows="10" cols="40" placeholder="Type something here"></textarea>
+
+        </p>
+
+        <p></p>
+    </form>
+
+    <h4>Form validations</h4>
+    <form action="/dummy">
+        <label for="First"></label>
+        <input type="text" id="First" name="First" required>
+        <button type="submit">Submit</button>
+        <label for="username"></label>
+        <input type="text" id="username" name="username" minlength="9" maxlength="20" required>
+    </form>
 </body>
