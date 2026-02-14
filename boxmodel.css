@@ -1,0 +1,27 @@
+div{
+    width:200px;
+    height:200px;
+    background-color: #fb5607;
+}
+h1{
+    background-color:aqua;
+    width: 100px;
+}
+#one{
+    background-color: #ff006e;
+    border-width:5px;
+    border-color:black;
+    border-style:solid
+}
+#two{
+    background-color: #fb5607;
+    border-color:#ffcdb2;
+    border-width:3px;
+    border-style:dashed;
+    border-left-color:greenyellow;
+    border-left-width:5px;
+
+}
+#three{
+    background-color: #383432;
+}
