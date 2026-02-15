@@ -1,0 +1,18 @@
+/* parent example */
+section{
+    background-color: red;
+    width: 800px;
+    height: 800px;
+}
+div{
+    background-color: rgb(223, 72, 2);
+    width: 90%;
+    height: 90%;
+}
+
+/* itself example */
+h1{
+    font-size: 100px;
+    border: 1px solid green;
+    line-height: 200%;    /* equals 200px*/
+}
