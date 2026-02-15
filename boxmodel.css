@@ -1,3 +1,11 @@
+body{
+    margin:0;
+}
+span{
+    margin-left:40px;  /*works */
+    margin-top:40px;  /*DOES NOT work */
+
+}
 div{
     width:200px;
     height:200px;
@@ -5,7 +13,8 @@ div{
 }
 h1{
     background-color:aqua;
-    width: 100px;
+    width: 400px;
+    margin:0;
 }
 #one{
     background-color: #ff006e;
@@ -20,8 +29,19 @@ h1{
     border-style:dashed;
     border-left-color:greenyellow;
     border-left-width:5px;
+    padding-left: 10px;
+    margin:10px 0;
 
 }
 #three{
     background-color: #383432;
+    border:4px solid greenyellow;
+    border-left-color:pink;
+    border-radius:50px;
 }
+h1{
+    padding-left:50px;
+}
+button{
+        padding:10px 50px 15px;
+    }
