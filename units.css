@@ -1,4 +1,4 @@
-/* parent example */
+/* /* parent example
 section{
     background-color: red;
     width: 800px;
@@ -11,8 +11,32 @@ div{
 }
 
 /* itself example */
-h1{
+/* h1{
     font-size: 100px;
     border: 1px solid green;
     line-height: 200%;    /* equals 200px*/
+ 
+h2{
+    font-size: 2em;
+    margin-left:1em;
+}
+h3{
+    font-size:3em;
+}
+p{
+    font-size:1em;
+}
+button{
+    font-size:1em;
+    padding:0 1em; 
+    border-radius:0.5em;
+    background-color: #f20505;
+    color:rgb(255, 254, 254);
+}
+article{
+    font-size:15px;
+}
+
+ul{
+    font-size:1.5em;
 }
