@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    background: none;
+    color: rgba(255, 255, 0, 0.767);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition:color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s ;
+    cursor: pointer;
+}
+button:hover{
+    border-color:rgb(255, 94, 0);
+    color: rgba(255, 255, 255, 0.904);
+    box-shadow: 0 0.5em 0.5em -0.3em rgb(255, 94, 0);
+    transform:translate(0, -0.25em);
+}
