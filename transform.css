@@ -1,0 +1,38 @@
+h1{
+    background-color: green;
+    border: 5px solid darkslategrey;
+    color: #eae2b7;
+    padding:0.7em;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Courier New ;
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n){
+    background-color: #e9c56a;;
+}
+
+h1:nth-of-type(3n){
+    background-color: orange;
+}
+
+h1:nth-of-type(4n){
+    background-color: red;
+}
+
+section:first-of-type h1:nth-of-type(1){
+    /* transform-origin:bottom right; */
+    transform: rotate(45deg);
+}
+section:first-of-type h1:nth-of-type(2){
+    transform: scale(0.78);
+
+}
+section:first-of-type h1:nth-of-type(3){
+    transform:  translate(500px, 99px)
+}
+section:first-of-type h1:nth-of-type(4){
+    transform: skew(30deg) ;
+}
